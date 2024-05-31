@@ -17,7 +17,7 @@ public class LingkaranTest {
 
     @Test
     public void testWarna() {
-        Lingkaran lingkaran = new Lingkaran("Merah", 5.0);
+        Lingkaran lingkaran = new Lingkaran("Merah", 4.0);
         assertEquals("Merah", lingkaran.warna); 
     }
 
