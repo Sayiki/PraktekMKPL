@@ -13,7 +13,7 @@ import java.util.Locale;
  *
  * @author arzaq
  */
-public class LingkaranTest {
+public class LingkaranTest { 
 
     @Test
     public void testWarna() {
