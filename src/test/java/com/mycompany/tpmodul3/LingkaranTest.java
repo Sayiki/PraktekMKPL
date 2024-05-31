@@ -17,13 +17,13 @@ public class LingkaranTest {
 
     @Test
     public void testWarna() {
-        Lingkaran lingkaran = new Lingkaran("Merah", 4.0);
+        Lingkaran lingkaran = new Lingkaran("Merah", 5.0);
         assertEquals("Merah", lingkaran.warna); 
     }
 
     @Test
     public void testKeliling() {
-        Lingkaran lingkaran = new Lingkaran("Biru", 3.0);
+        Lingkaran lingkaran = new Lingkaran("Biru", 2.0);
         // Menggunakan assertEquals dengan delta untuk perhitungan floating point
         assertEquals(18.84955592153876, lingkaran.getKeliling(), 0.0001); 
     }
